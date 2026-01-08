@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var trap = function (height) {
 
     const n = height.length;
@@ -37,3 +38,6 @@ var trap = function (height) {
     return water
 
 };
+=======
+ 
+>>>>>>> 9f4179d72d3e4e17a3a187849f1e665389695a5c

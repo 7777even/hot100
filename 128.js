@@ -21,5 +21,10 @@ var longestConsecutive = function (nums) {
     return max;
 }
 
+<<<<<<< HEAD
 const nums = [100, 4, 200, 1, 3, 2];
 console.log(longestConsecutive(nums));
+=======
+const nums = [100,4,200,1,3,2];
+console.log(longestConsecutive(nums));
+>>>>>>> 9f4179d72d3e4e17a3a187849f1e665389695a5c
