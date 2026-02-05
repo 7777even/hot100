@@ -15,6 +15,6 @@ var reverseList = function (head) {
         //curr后移
         curr = nextTemp;
     }
-
+    //反转过后的头部为prev
     return prev;
 }
