@@ -19,7 +19,7 @@ var numIslands = function(grid) {
     // 从坐标（i，j）开始，把这个位置所在的整个岛屿全部标记为0
     function dfs(i,j){
         // 越界 or 水，直接返回
-        if(i<0||i>=m||j<0||j>=m||grid[i][j]==='0') return
+        if(i<0||i>=m||j<0||j>=n||grid[i][j]==='0') return
         // 标记当前陆地为已访问（淹没）
         grid[i][j]='0';
         // 向四个方向扩散
